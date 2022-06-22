@@ -16,17 +16,16 @@ settings:
 
 monitors:
   - id: h5.sxj5888.com  # unique identifier
-    name: h5.sxj5888.com/
-    description: 'YLT h5.' # default=empty
+    name: YLT h5
+    description: 'h5.sxj5888.com.' # default=empty
     url: 'https://h5.sxj5888.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: h5d.sxj5888.com
-    name: h5d.sxj5888.com
-    description: 'YLT h5d'
+    name: YLT h5d
+    description: 'h5d.sxj5888.com'
     url: 'https://h5d.sxj5888.com'
     method: GET
     expectStatus: 200
