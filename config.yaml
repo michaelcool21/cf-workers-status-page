@@ -23,20 +23,20 @@ monitors:
     expectStatus: 200 # operational status, default=200
     linkable: true # allows the title to be a link, default=true
 
-      - id: h5.sxj5888.com2  # unique identifier
-        name: YLT h5 2
-        description: 'h5.sxj5888.com' # default=empty
-        url: 'https://h5.sxj5888.com' # URL to fetch
+    - id: h5.sxj5888.com2  # unique identifier
+      name: YLT h5 2
+      description: 'h5.sxj5888.com' # default=empty
+      url: 'https://h5.sxj5888.com' # URL to fetch
 
-      - id: ht.mct26.com  # unique identifier
-        name: YLT ht
-        description: 'ht.mct26.com' # default=empty
-        url: 'https://ht.mct26.com' # URL to fetch
+    - id: ht.mct26.com  # unique identifier
+      name: YLT ht
+      description: 'ht.mct26.com' # default=empty
+      url: 'https://ht.mct26.com' # URL to fetch
 
-      - id: ht.mct26.com default # unique identifier
-        name: YLT ht
-        description: 'ht.mct26.com' # default=empty
-        url: 'https://ht.mct26.com/default' # URL to fetch
+    - id: ht.mct26.com default # unique identifier
+      name: YLT ht
+      description: 'ht.mct26.com' # default=empty
+      url: 'https://ht.mct26.com/default' # URL to fetch
 
   - id: h5d.sxj5888.com
     name: YLT h5d
