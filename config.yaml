@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: h5.sxj5888.com  # unique identifier
-    name: YLT h5
+    name: YLT_h5
     description: 'h5.sxj5888.com' # default=empty
     url: 'https://h5.sxj5888.com/index.html' # URL to fetch
     method: GET # default=GET
@@ -24,7 +24,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: h5.sxj5888.com2  # unique identifier
-    name: 'YLT h5 2'
+    name: YLT_h5_2
     description: 'h5.sxj5888.com' # default=empty
     url: 'https://h5.sxj5888.com/' # URL to fetch
     method: GET # default=GET
@@ -32,7 +32,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: h5d.sxj5888.com
-    name: 'YLT h5d'
+    name: YLT_h5d
     description: 'h5d.sxj5888.com'
     url: 'https://h5d.sxj5888.com/manifest.json'
     method: GET
@@ -40,7 +40,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: ht.mct26.com  # unique identifier
-    name: 'YLT ht'
+    name: YLT_ht
     description: 'ht.mct26.com' # default=empty
     url: 'https://ht.mct26.com/' # URL to fetch
     method: GET # default=GET
@@ -48,7 +48,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: ht.mct26.com default # unique identifier
-    name: 'YLT ht 2'
+    name: YLT_ht_2
     description: 'ht.mct26.com' # default=empty
     url: 'https://ht.mct26.com/default' # URL to fetch
     method: GET # default=GET
